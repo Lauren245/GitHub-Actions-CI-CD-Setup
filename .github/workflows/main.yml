@@ -26,6 +26,6 @@ jobs:
 
             - name: Run Start
               run: npm run start
-
+            # should probably remove this from here because the tests are ran when a PR is made to to develop, and only develop can merge with main.
             - name: Run Tests
               run: npm run test
